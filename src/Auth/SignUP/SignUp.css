@@ -1,0 +1,40 @@
+.parentcard{
+      display: flex;
+      justify-content: left;
+      height: 100vh;
+      background-color:lightskyblue;
+      align-items: baseline;
+}
+
+.childcard{
+      display: flex;
+    flex-direction: column;
+      background-color: floralwhite;
+      border-radius: 19px;
+      margin: 1rem 0rem 0rem 1rem;
+      padding: 1rem 12rem 1rem 0rem;
+}
+
+.reg {
+      padding-left: 1rem;
+}
+
+.childcard label{
+
+      display: flex;
+}
+.loginbutton{
+      float:right;  
+      background-color:royalblue;
+      color: cornsilk;
+}
+
+.col input{
+      width: 350px;
+
+}
+
+.req-label::after{
+      content: " *";
+      color: red;
+}
